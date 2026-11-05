@@ -1,0 +1,22 @@
+# backend 目录的依赖清单
+# 安装方式: pip install -r requirements.txt
+
+# 文件解析
+python-docx>=1.0.0
+pdfplumber>=0.11.0
+python-pptx>=1.0.0
+openpyxl>=3.1.0
+nbformat>=5.10.0
+
+# RAG - embedding
+sentence-transformers>=3.0.0
+
+# RAG - 向量库
+faiss-cpu>=1.8.0
+
+# 后端服务
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# 网络搜索
+tavily-python>=0.7.0

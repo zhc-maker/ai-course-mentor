@@ -1,0 +1,33 @@
+# 依赖与运行时产物
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 模型权重（体积大，运行时自动下载）
+backend/models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# 运行时生成的索引与上传文件
+vector_index/*
+!vector_index/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# 密钥与本地配置
+.env
+.env.local
+*.local.yaml
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
